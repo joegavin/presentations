@@ -1,0 +1,33 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240403230000
+Username: NT Service\SQLSERVERAGENT
+RunAs User: NT Service\SQLSERVERAGENT
+Configuration Name: 
+Machine: WIN-GV2FHVT9S4A (Microsoft Windows NT 10.0.20348.0)
+Host Application: powershell.exe -F D:\scripts\TestLatestBackups\TestLatestBackups.ps1
+Process ID: 1748
+PSVersion: 5.1.20348.2227
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.2227
+BuildVersion: 10.0.20348.2227
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Scripts\TestLatestBackups\TestLatestBackups.txt
+
+PS>TerminatingError(): "Microsoft.Data.SqlClient.SqlError: The volume on device '\\WIN-GV2FHVT9S4A\Backups\WIN-GV2FHVT9S4A\WideWorldImporters_2\WideWorldImporters_2_202404031600.trn' is empty."
+PS>TerminatingError(): "Microsoft.Data.SqlClient.SqlError: The volume on device '\\WIN-GV2FHVT9S4A\Backups\WIN-GV2FHVT9S4A\WideWorldImporters_2\WideWorldImporters_2_202404031600.trn' is empty."
+PS>TerminatingError(): "Microsoft.Data.SqlClient.SqlError: The volume on device '\\WIN-GV2FHVT9S4A\Backups\WIN-GV2FHVT9S4A\WideWorldImporters_2\WideWorldImporters_2_202404031600.trn' is empty."
+>> TerminatingError(): "Microsoft.Data.SqlClient.SqlError: The volume on device '\\WIN-GV2FHVT9S4A\Backups\WIN-GV2FHVT9S4A\WideWorldImporters_2\WideWorldImporters_2_202404031600.trn' is empty."
+
+WARNING: [23:01:13][Test-DbaBackupInformation] Backup File \\WIN-GV2FHVT9S4A\Backups\WIN-GV2FHVT9S4A\WideWorldImporters_3\WideWorldImporters_3_202404031600.trn cannot be read by WIN-GV2FHVT9S4A. Does the service account (NT Service\MSSQLSERVER) have permission?
+WARNING: [23:01:13][Restore-DbaDatabase] Database dbatools-testrestore-WideWorldImporters_3 failed testing,  skipping
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20240403230120
+**********************
